@@ -1,0 +1,257 @@
+/* 
+
+   Read in the name of ALLAH 
+
+   =======================
+   Explore SuperStar World
+
+   Shihan Chowdhury
+   ======================= 
+   
+*/
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+audio,canvas,iframe,img,svg,video {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/*
+   _-_-_-_-_-_-_-_-_-_
+	 Add Custom Font
+*/
+@font-face {
+    font-family: 'gothambook';
+    src: url('fonts/gothambook.eot');
+    src: url('fonts/gothambook.eot') format('embedded-opentype'),
+         url('fonts/gothambook.woff2') format('woff2'),
+         url('fonts/gothambook.woff') format('woff'),
+         url('fonts/gothambook.ttf') format('truetype'),
+         url('fonts/gothambook.svg#gothambook') format('svg');
+}
+
+
+
+/* =============
+   Custom Styles
+   ============= */
+
+.fix {
+	overflow:hidden;
+}
+.floatleft {
+	float:left;
+}
+.floatright {
+	float: right;
+}
+a, a:hover {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}   
+
+body {
+	font-family: gothambook;
+}
+ 
+/* Help_Toggle style */
+.show_cls {
+    width: 30%;	
+    position: fixed;
+    bottom: 0;
+    right: 16%;		
+}
+.toggle_Login_area, .toggle_Signup_area {
+    border: 1px solid #ddd;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+	top: 0;
+	bottom: 0;
+    right: 0;
+	left: 0;
+	display: none;
+	background: rgba(0,0,0,0.5);
+	padding-top: 100px;
+}
+
+.toggle_login_details, .toggle_Signup_details {
+    width: 34%;
+    margin: 0 auto;
+    height: 58%;
+    border: 1px solid #ddd;
+	background: #fff;
+	opacity: 1!important;
+}
+.modal_logo_bar{
+    text-align: center;	
+	padding-top: 14px;
+}   
+.modal_logo_bar img{
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;	
+}  
+.modal_form_bar {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 23px;	
+} 
+.modal_foooter_bar {
+    text-align: center;
+    letter-spacing: 1px;	
+}
+ 
+  
+/*
+	-_-_-_-_-_-_-_-_-_-_
+	Start
+	-_-_-_-_-_-_-_-_-_-_
+*/
+   
+/*
+	____________________
+	End
+	--------------------
+*/
+
+/*
+	-_-_-_-_-_-_-_-_-_-_
+	Start
+	-_-_-_-_-_-_-_-_-_-_
+*/
+   
+/*
+	____________________
+	End
+	--------------------
+*/
+
+
+
+
+
+
+
+.hidden {
+    display: none !important;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+.invisible {
+    visibility: hidden;
+}
+.clearfix:before,.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important;
+		box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    a[href^="#"]:after,a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre,blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    tr,img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    p,h2,h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,h3 {
+        page-break-after: avoid;
+    }
+}
+.slicknav_menu {
+	display: none;
+}
